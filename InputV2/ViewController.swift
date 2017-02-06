@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         lineview = myView.init(frame: CGRect(x: xPos, y: yPos, width: lineViewWidth, height: lineViewHeight))
 
 
-        //lines.backgroundColor = UIColor.blueColor();
+//        lines.backgroundColor = UIColor.blueColor();
         
 //        lines.userInteractionEnabled = false
         
@@ -39,13 +39,7 @@ class ViewController: UIViewController {
         lineview.backgroundColor = UIColor.clear;
         
         lineview.isUserInteractionEnabled = false
-        
-        
 
-      
-
-    
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
 
