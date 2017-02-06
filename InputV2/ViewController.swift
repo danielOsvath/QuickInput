@@ -163,14 +163,10 @@ class ViewController: UIViewController {
         
         if let val1 = Double(xStringValue){
             value += val1
-        }else{
-            value += 0
         }
         
         if let val2 = Double(yStringValue){
             value += val2
-        }else{
-            value += 0 ;
         }
         
         return (value,xHashLocation,yHashLocation)
